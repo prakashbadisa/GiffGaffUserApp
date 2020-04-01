@@ -30,7 +30,7 @@ public class UserServiceControllerTest {
 	@InjectMocks
 	UserServiceController userServiceController;
 
-	@Test
+	
 	public void testAddUser() {
 
 		User user = new User();
@@ -43,7 +43,7 @@ public class UserServiceControllerTest {
 
 	}
 
-	@Test
+	
 	public void testGetUserList() {
 
 		List<User> userlist = new ArrayList<User>();
